@@ -795,7 +795,7 @@ class Client(object):
         '''
             Example usage:
 
-            >>> client.mark_all_as_read(42, 'new coffee machine')
+            >>> client.mark_topic_as_read(42, 'new coffee machine')
             {'result': 'success', 'msg': ''}
         '''
         return self.call_endpoint(
